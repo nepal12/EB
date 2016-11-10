@@ -16,7 +16,6 @@ public class MainApp extends Application {
         
         Scene scene = new Scene(root);
         scene.getStylesheets().add(getClass().getResource("/styles/Styles.css").toExternalForm());
-        
         stage.setTitle("EB : ");
         stage.setScene(scene);
         stage.show();
